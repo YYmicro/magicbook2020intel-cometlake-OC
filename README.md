@@ -1,0 +1,20 @@
+# Honor magicbook 2020 intel hackintosh EFI
+
+this is the catalina branch
+
+## 2025.05.21 ACPI问题记录
+ACPI似乎无法识别特别大的SSDT文件或者比较新的版本，目前使用的文件是淘宝买的EFI中的SSDT文件。后续需要仔细研究ACPI文件的问题。
+```
+00:000 00:000 OCA: Inserted ACPI table has length mismatch 281875 vs 557582858, ignoring
+00:000 00:000 OC: Failed to add ACPI SSDT-XOSI.aml - Invalid Parameter
+00:002 00:001 OCA: Inserted ACPI table has length mismatch 281754 vs 557582858, ignoring
+00:002 00:000 OC: Failed to add ACPI SSDT-AWAC.aml - Invalid Parameter
+00:004 00:001 OCA: Inserted ACPI table has length mismatch 282112 vs 557582858, ignoring
+00:005 00:000 OC: Failed to add ACPI SSDT-EC-USBX-LAPTOP.aml - Invalid Parameter
+00:007 00:001 OCA: Inserted ACPI table has length mismatch 282045 vs 557582858, ignoring
+00:007 00:000 OC: Failed to add ACPI SSDT-PLUG.aml - Invalid Parameter
+00:009 00:001 OCA: Inserted ACPI table has length mismatch 282190 vs 557582858, ignoring
+00:009 00:000 OC: Failed to add ACPI SSDT-PMC.aml - Invalid Parameter
+00:011 00:001 OCA: Inserted ACPI table has length mismatch 281892 vs 557582858, ignoring
+00:011 00:000 OC: Failed to add ACPI SSDT-PNLF.aml - Invalid Parameter
+```
