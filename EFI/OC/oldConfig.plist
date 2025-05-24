@@ -18,7 +18,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>SSDT-EC-USBX-LAPTOP.aml</string>
                 </dict>
@@ -50,7 +50,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Path</key>
                     <string>SSDT-PNLFCFL.aml</string>
                 </dict>
@@ -222,7 +222,7 @@
                 <key>AvoidRuntimeDefrag</key>
                 <true/>
                 <key>DevirtualiseMmio</key>
-                <true/>
+                <false/>
                 <key>DisableSingleUser</key>
                 <false/>
                 <key>DisableVariableWrite</key>
@@ -242,7 +242,7 @@
                 <key>ProtectSecureBoot</key>
                 <false/>
                 <key>ProtectUefiServices</key>
-                <true/>
+                <false/>
                 <key>ProvideCustomSlide</key>
                 <true/>
                 <key>ProvideMaxSlide</key>
@@ -1178,7 +1178,7 @@
             <key>Quirks</key>
             <dict>
                 <key>AppleCpuPmCfgLock</key>
-                <false/>
+                <true/>
                 <key>AppleXcpmCfgLock</key>
                 <true/>
                 <key>AppleXcpmExtraMsrs</key>
@@ -1190,7 +1190,7 @@
                 <key>CustomSMBIOSGuid</key>
                 <false/>
                 <key>DisableIoMapper</key>
-                <true/>
+                <false/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
@@ -1218,7 +1218,7 @@
                 <key>SetApfsTrimTimeout</key>
                 <integer>-1</integer>
                 <key>ThirdPartyDrives</key>
-                <false/>
+                <true/>
                 <key>XhciPortLimit</key>
                 <true/>
             </dict>
@@ -1382,7 +1382,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1404,7 +1404,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1426,7 +1426,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1448,7 +1448,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1470,7 +1470,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1492,7 +1492,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1514,7 +1514,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1536,7 +1536,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1558,7 +1558,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1580,7 +1580,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1602,7 +1602,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1624,7 +1624,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1646,7 +1646,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1681,7 +1681,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v -igfxmpc -igfxblr -v debug=0x100 keepsyms=1 alcid=21 -igfxblr -igfxbls -igfxblt</string>
+                    <string>-v -v debug=0x100 keepsyms=1 alcid=21</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1750,23 +1750,23 @@
                 <key>AdviseFeatures</key>
                 <true/>
                 <key>MLB</key>
-                <string>C02203700CDPHC1UE</string>
+                <string>C020219024N0000A8</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>3lyJ2U0R</data>
+                <data>euVUvnGa</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>iMac20,1</string>
+                <string>MacBookPro16,3</string>
                 <key>SystemSerialNumber</key>
-                <string>C02H4RYDPN5T</string>
+                <string>C02CR0LSP3XY</string>
                 <key>SystemUUID</key>
-                <string>72121268-D17D-422A-A370-E21DEB11D7C5</string>
+                <string>6FA55A4A-F91E-41CA-ABA7-43E3C7B5681C</string>
             </dict>
             <key>Memory</key>
             <dict>
