@@ -26,6 +26,7 @@ ACPI似乎无法识别特别大的SSDT文件或者比较新的版本，目前使
 后面需要研究一下ACPI什么配置会导致I2C获取bus config失败。
 
 
-## TODO list
-[ ] ACPI版本更新
-[ ] ACPI研究什么配置会导致I2C获取bus config失败
+## TODO list  
+
+- [ ] ACPI版本更新  
+- [ ] ACPI研究什么配置会导致I2C获取bus config失败
