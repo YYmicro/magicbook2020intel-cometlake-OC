@@ -2,6 +2,22 @@
 
 this is the catalina branch
 
+## Configuration
+
+| 描述     | 详情                               |
+| :------: | :--------------------------------: |
+| 电脑型号 | Honor Magicbook 14 intel           |
+| CPU      | Intel i7-10510U                    |
+| RAM      | 16GB 2400MHz DDR4                  |
+| Disk     | WD SN730 512GB                     |
+| GPU      | Intel UHD Graphics                 |
+| 声卡     | Realtek ALC256                     |
+| 键盘     | PS/2                               |
+| 无线网卡 | Intel Wireless-AC 9560 160MHz 板载 |
+| 触控板   | HID I2C                            |
+
+
+
 ## 2025.05.21 ACPI问题记录
 ACPI似乎无法识别特别大的SSDT文件或者比较新的版本，目前使用的文件是淘宝买的EFI中的SSDT文件。后续需要仔细研究ACPI文件的问题。
 ```
