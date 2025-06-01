@@ -35,11 +35,15 @@ ACPI似乎无法识别特别大的SSDT文件或者比较新的版本，目前使
 00:011 00:000 OC: Failed to add ACPI SSDT-PNLF.aml - Invalid Parameter
 ```
 
+解决方案：github上提供的aml文件不能在浏览器上直接下载，直接下载的文件有问题。而要使用git来clone下来，这样文件就是正常的。
+
 ## 2025.05.27 ACPI问题记录
 按照国光酱的方式配置常见的ACPI后，会遇到一些I2C无法找到bus配置的问题，导致PS2 kext驱动在寻找触控板的时候会出问题，导致报错。  
 根据deepseek的分析，可能是ACPI传过来的东西就有问题。  
 因此我直接照搬了淘宝EFI所有的ACPI文件以及配置。  
 后面需要研究一下ACPI什么配置会导致I2C获取bus config失败。
+
+解决方案：把SSDT-EC.aml加上。或者dortania官方的SSDT-EC-USBX.aml
 
 
 ## TODO list  
