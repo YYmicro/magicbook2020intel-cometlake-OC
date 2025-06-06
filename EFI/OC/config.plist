@@ -543,28 +543,60 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)</key>
-                <dict>
-                    <key>device-id</key>
-                    <data>8hUAAA==</data>
-                </dict>
-                <key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-                <dict>
-                    <key>layout-id</key>
-                    <data>AQAAAA==</data>
-                </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
                     <data>CQCbPg==</data>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,2,0</string>
                     <key>device-id</key>
                     <data>mz4AAA==</data>
-                    <key>framebuffer-fbmem</key>
-                    <data>AACQAA==</data>
+                    <key>device_type</key>
+                    <string>VGA compatible controller</string>
+                    <key>disable-external-gpu</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-hdmi-drivers-fix</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-hdmi20</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-lspcon-support</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-pipe</key>
+                    <data>EgAAAA==</data>
+                    <key>framebuffer-con1-busid</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-has-lspcon</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-pipe</key>
+                    <data>EgAAAA==</data>
+                    <key>framebuffer-con1-preferred-lspcon-mode</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-con2-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-index</key>
+                    <data>/////w==</data>
+                    <key>framebuffer-con2-pipe</key>
+                    <data>EgAAAA==</data>
+                    <key>framebuffer-con2-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-flags</key>
+                    <data>DxvzAA==</data>
                     <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
+                    <key>framebuffer-portcount</key>
+                    <data>AgAAAA==</data>
                     <key>framebuffer-stolenmem</key>
-                    <data>AAAwAQ==</data>
+                    <data>AADgAQ==</data>
+                    <key>framebuffer-unifiedmem</key>
+                    <data>AAAAgA==</data>
+                    <key>model</key>
+                    <string>Intel Iris Plus Graphics 655</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -1943,7 +1975,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v -v debug=0x100 keepsyms=1 alcid=21</string>
+                    <string>-v -v debug=0x100 keepsyms=1 alcid=21 -igfxblr</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
